@@ -1,0 +1,11 @@
+bin
+*.chp
+*.out
+*.so
+*.a
+*.tmp
+*.chp
+*.pid
+t.bds*
+tmp
+go/bds/bds

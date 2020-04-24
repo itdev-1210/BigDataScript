@@ -1,0 +1,14 @@
+#!/usr/bin/env bds
+
+class A {
+	int a = 1
+	int g() {
+		return 42
+	}
+}
+
+void test01() {
+	println "TEST01"
+	A a = new A()
+	assert("Wrong answer", 1, a.a)
+}
